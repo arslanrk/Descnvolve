@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import ProjectDetail from "./components/ProjectDetails";
 import WhyUs from "./components/WhyUs";
 import AboutUs from "./components/AboutUs";
+import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <ProjectDetail />
       <WhyUs />
       <AboutUs />
+      <Testimonial />
+      <Footer />
     </main>
   );
 }
