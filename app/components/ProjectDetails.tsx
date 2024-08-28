@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { IoIosPlayCircle } from "react-icons/io";
 
 const ProjectDetail = () => {
@@ -30,7 +29,7 @@ const ProjectDetail = () => {
             </div>
           </div>
         </div>
-        <Image
+        <img
           src="/images/programmer-hoodie.png"
           alt="logo"
           width={400}

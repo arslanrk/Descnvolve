@@ -22,7 +22,7 @@ const AboutUs = () => {
       <div className="bg-white text-black rounded-lg w-[350px] px-5 py-5 flex flex-col gap-5 membersWrapper">
         <h6 className="font-bold">Memebers</h6>
         <div className="flex items-center gap-5">
-        <Image
+        <img
             src="/images/user2.jpg"
             alt="logo"
             width={50}
@@ -37,7 +37,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex items-center gap-5">
-          <Image
+          <img
             src="/images/user2.jpg"
             alt="logo"
             width={50}
@@ -52,7 +52,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex items-center gap-5">
-        <Image
+        <img
             src="/images/user2.jpg"
             alt="logo"
             width={50}

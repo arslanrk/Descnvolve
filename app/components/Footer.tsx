@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -17,7 +16,7 @@ const Footer = () => {
             Get in touch
         </div>
       </div>
-      <Image
+      <img
           src="/images/banner2.png"
           alt="logo"
           width={400}

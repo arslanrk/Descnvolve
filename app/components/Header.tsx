@@ -1,6 +1,5 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Image from "next/image";
 
 const Header = () => {
   return (
@@ -8,7 +7,7 @@ const Header = () => {
       <div className="w-[40%]"></div>
       <div className="w-[60%] flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Image
+          <img
             src="/images/logo.png"
             alt="logo"
             width={50}
